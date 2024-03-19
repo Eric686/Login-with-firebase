@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <link href="index1.css"  rel="stylesheet"/>
+  </head>
+  <body class="bg-light"> 
+<form id="login-form" action="action_login.php" method="POST">
+  <div class="imgcontainer">
+    <!--<img src="img/logo1.jpg" alt="Avatar" class="avatar">--->
+  </div>
+  <div class="container">
+    <label for="uname"><b>Username:</b></label>
+    <input type="text" placeholder="Enter your name" name="uname" required><br>
+    <label for="psw"><b>Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+    <button type="submit" onclick="showModal()">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember">Remember Me
+    </label>
+  </div>
+  <div class="container" style="background-color: aquamarine;">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a>.</span>
+  </div>
+</form>
+</body>
+<script>
+ // function showModal(){
+   // document.querySelector("submit", function(){
+     // document.querySelector("submit").classList.add("active");
+    //});
+  //}
+</script>
+</html>
